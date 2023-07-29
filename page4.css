@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.part1{
+    width: 100%;
+    height: 100vh;
+    background:#ffc49e;}
+.logo{
+        position: relative;
+        min-width: 80px;
+        color: white;
+        font-size: 25px;
+        align-items: center;
+        display: flex;
+        column-gap: 5px;
+       text-decoration: none;
+        padding: 5px;}
+.review h1{
+    text-align: center;
+    font-size: 50px;
+    
+}
+.review-card img{
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+
+}
+.review-box{
+    width: 95%;
+    height: 50vh;
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.review-card{
+    width: 400px;
+    height: 320px;
+    box-shadow: 0 0 8px red;
+    padding: 15px;
+    margin:0 12px ;
+    background: white;
+}
+.quote{
+    float: right;
+    font-size: 120px;
+    position: relative;
+    bottom: 20px;
+    color: #f47d34;
+}
+.review-card p{
+    margin: 10px;
+    text-align: justify;
+    line-height: 22px;
+}
+.review-icon {
+    font-size: 16px;
+    
+    margin-top: 20px;
+    color: yellow;
+    padding:0 1px ;
+}
+.continue{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:  30px ;
+    
+}
+.rating-box{
+    padding: 25px 50px 35px;
+    background: white;
+    border-radius: 25px ; 
+    box-shadow: rgba(0,0, 0, 0.05);
+}
+header{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.review-icon2{
+    color: #e6e6e6;
+    font-size: 35px;
+    cursor: pointer;
+    transition:color 0.2s ease ;
+}
+.review-icon2 .active{
+color: yellow;
+}
+

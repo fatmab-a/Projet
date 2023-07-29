@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.part1{
+    width: 100%;
+    height: 100vh;
+    background:#ffc49e;}
+    .featured-books-card img{
+        height: 100px;
+       
+    
+    }
+    .logo{
+    position: relative;
+    min-width: 80px;
+    color: white;
+    font-size: 25px;
+    align-items: center;
+    display: flex;
+    column-gap: 5px;
+   text-decoration: none;
+    padding: 4px 10px 0 ;}
+
+    .featured-books h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+        font-size: 30px;
+    }
+    .featured-books-box{
+        width: 95%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        grid-gap: 10px 0;
+         
+    }
+    .featured-books-card:hover{
+        box-shadow: 0  0 5px red; 
+    }
+    
+    .featured-books-card{
+        width: 250px;
+        height: 280px;
+        text-align: center;
+        padding: 5px;
+        padding-top: 15px;
+        border: 1px solid gray;
+        margin: auto 20px;
+        background: white;
+    }
+    .featured-books-tag h2{
+        margin: 15px;
+    }
+    .featured-books-tag .writer{
+        color: #dc5a30;
+    }
+    .featured-books-tag .price{
+        margin-top: 8px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    .featured-books-tag .f-btn{
+        padding: 8px 20px;
+        border: 2px;
+        text-decoration: none;
+        color: white;
+        background: red;
+    }
+.part2{
+    width: 100%;
+    height: 50vh;
+    background:#ffc49e;
+}
+.part2 .featured-books-card{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding: 5px;
+    padding-top: 15px;
+    border: 1px solid black;
+    margin: auto 20px;}
+    .part2 h3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+        padding-bottom: 20px;
+        font-size: 30px;
+    }
+    ::-webkit-scrollbar{
+        width: 10px;
+        height: 5px;
+    }
+    ::-webkit-scrollbar-track{
+        box-shadow: inset 0 0 8px rgba(0,0,0, 0.2);
+    }
+    ::-webkit-scrollbar-thumb{
+        background: rgb(210, 127, 127);
+        border-radius: 10px;
+       
+    }
